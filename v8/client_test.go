@@ -3,10 +3,10 @@ package redismock_test
 import (
 	"context"
 	"errors"
+	"github.com/alicebob/miniredis/v2"
 	"testing"
 
-	"github.com/alicebob/miniredis/v2"
-	"github.com/elliotchance/redismock/v8"
+	"github.com/croatiangrn/redismock/v8"
 	"github.com/go-redis/redis/v8"
 	"github.com/stretchr/testify/assert"
 )
